@@ -21,4 +21,4 @@ app.use('/user', user);
 app.use('/scratchCard', scratchCard);
 app.use('/transaction', transaction);
 
-app.listen(3000, () => console.log(`started`));
+app.listen(3000, () => console.log(`started port`));
