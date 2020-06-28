@@ -12,6 +12,10 @@ var corsOptions = {
 }
 app.use(cors(corsOptions))
 
+app.listen(3000, () => console.log(`started port PRO-04`)); //PRO-04
+app.listen(3000, () => console.log(`started port PRO-04`)); //PRO-04
+app.listen(3000, () => console.log(`started port PRO-04`)); //PRO-04
+
 app.listen(3000, () => console.log(`started port PRO-01`)); //PRO-01
 
 console.log('added PRO-02 UI changes and backend changes'); //PRO-02
